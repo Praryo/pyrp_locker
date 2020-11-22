@@ -20,9 +20,9 @@ To integrate this script to esx_inventoryhud, first put the inventoryhud_ui_lock
 "client/locker.lua",
 ```
 
-###You need to send the NUI callback to the javascript. To do that, go to html/js/inventory.js and open it
+### You need to send the NUI callback to the javascript. To do that, go to html/js/inventory.js and open it
 
-###Find 
+### Find 
 
 ```
 
@@ -36,7 +36,7 @@ if (type === "normal") {
 
 ```
   
-###Add
+### Add
 
 ```
 if (type === "normal") {
@@ -50,7 +50,7 @@ if (type === "normal") {
 }
 ```
 
-###Find
+### Find
 
 ```
 } else if (type === "player" && itemInventory === "second") {
@@ -62,7 +62,7 @@ if (type === "normal") {
 }
 ```
 
-###Add
+### Add
 
 ```
 } else if (type === "player" && itemInventory === "second") {
@@ -80,7 +80,7 @@ if (type === "normal") {
 }
 ```
 
-###Find
+### Find
 
 ```
 } else if (type === "player" && itemInventory === "main") {
@@ -92,7 +92,7 @@ if (type === "normal") {
 }
 ```
 
-###Add
+### Add
 
 ```
 } else if (type === "player" && itemInventory === "main") {
