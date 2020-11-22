@@ -10,6 +10,7 @@ ESX Praryo RP Locker Script (Inventory HUD Integrated)
 - [esx_datastore](https://github.com/ESX-Org/esx_datastore)
 - [esx_inventoryhud 2.3+](https://github.com/Trsak/esx_inventoryhud)
 - [mythic_notify](https://github.com/JayMontana36/mythic_notify)
+- [bob74_ipl](https://github.com/Bob74/bob74_ipl)
 
 ### Intergrating Inventorys Tutorial
 
