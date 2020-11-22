@@ -12,7 +12,7 @@ ESX Praryo RP Locker Script (Inventory HUD Integrated)
 - [mythic_notify](https://github.com/JayMontana36/mythic_notify)
 - [bob74_ipl](https://github.com/Bob74/bob74_ipl)
 
-### Intergrating Inventorys Tutorial
+### Integrating InventoryHUD Tutorial
 
 To integrate this script to esx_inventoryhud, first put the inventoryhud_ui_locker.lua in client folder of your inventory hud and rename it to locker.lua. Second add the locker.lua to the esx_inventoryhud fxmanifest.lua/__resource.lua
 
