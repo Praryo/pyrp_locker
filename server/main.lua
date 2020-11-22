@@ -72,14 +72,8 @@ function PayLockerRent(d, h, m)
 			if xPlayer then
 				xPlayer.removeAccountMoney('bank', Config.DailyRentPrice)
 				TriggerClientEvent('mythic_notify:client:SendAlert', xPlayer.source, { type = 'inform', text = "You paid $"..Config.DailyRentPrice.." for the locker rental.", length = 8000 })
-				MySQL.Async.execute('UPDATE pyrp_city_stats SET Funds = Funds + @funds WHERE id = 1', {
-					['@funds'] = Config.DailyRentPrice,
-				})
 			else
 				MySQL.Sync.execute('UPDATE users SET bank = bank - @bank WHERE identifier = @identifier', { ['@bank'] = Config.DailyRentPrice, ['@identifier'] = result[i].identifier })
-				MySQL.Async.execute('UPDATE pyrp_city_stats SET Funds = Funds + @funds WHERE id = 1', {
-					['@funds'] = Config.DailyRentPrice,
-				})
 			end
 		end
 	end)
