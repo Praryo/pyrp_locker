@@ -14,7 +14,6 @@ Config.LockerExterior = vector3(-286.23, 280.84, 89.89)
 
 Config.LockerInterior = vector3(1173.24, -3196.62, -39.01)
 
-
 Config.Lockers = {
 
 	["locker1"] = {
