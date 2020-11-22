@@ -1,5 +1,5 @@
 # pyrp_locker
-ESX Locker Script (Inventory HUD Integrated)
+ESX Praryo RP Locker Script (Inventory HUD Integrated)
 
 ### Requirements
 ------------
